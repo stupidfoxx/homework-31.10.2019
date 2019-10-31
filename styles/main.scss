@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: grey;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    padding: 0px;
+    background: linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#dbdce2 49%,#dddfe3 80%,#f5f6f6 100%);
+    width: 580px;
+    height: 580px;
+     div {
+        height: 100px;
+        width: 100px;
+        background-image: url('../../images/1.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+        &.light {
+            background-image: url('../../images/2.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
